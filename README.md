@@ -8,6 +8,7 @@
 
 | 스킬 | 하는 일 |
 |---|---|
+| [`git-commit`](skills/git-commit/SKILL.md) | 커밋 메시지를 명사형 종결(개조식)로 쓰고, 변경이 여러 갈래면 나눠서 커밋한다 |
 | [`plan-well`](skills/plan-well/SKILL.md) | 계획 문서를 쓴다. 간결한 `PLAN.md` 1개 + 전체 흐름 다이어그램 1개 |
 | [`visual-doc`](skills/visual-doc/SKILL.md) | 문서를 HTML 한 장으로 시각화한다 (20개 형식 카탈로그 기반, 출처: [html-effectiveness](https://thariqs.github.io/html-effectiveness/)) |
 

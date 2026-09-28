@@ -3,7 +3,7 @@
 ## 1. 클론
 
 ```sh
-git clone https://github.com/pktony/agent-skills.git ~/src/agent-skills
+git clone https://github.com/pktony/agent-skills-zip.git ~/src/agent-skills
 ```
 
 ## 2. 심링크
@@ -29,7 +29,7 @@ Claude Code 는 `.claude/skills/`, Codex 는 `.agents/skills/`.
 
 위 명령을 직접 치는 대신 그대로 붙여넣어도 된다:
 
-> `https://github.com/pktony/agent-skills` 를 `~/src/agent-skills` 로 클론하고,
+> `https://github.com/pktony/agent-skills-zip` 를 `~/src/agent-skills` 로 클론하고,
 > `skills/` 안의 각 디렉터리를 내 에이전트의 스킬 디렉터리로 심링크해줘.
 > Claude Code 는 `~/.claude/skills/`, Codex 는 `~/.agents/skills/` 다.
 > 복사하지 말고 심링크로 걸어야 `git pull` 이 바로 반영된다.

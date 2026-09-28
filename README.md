@@ -1,4 +1,4 @@
-# agent-skills
+# agent-skills-zip
 
 내 에이전트 스킬과 자주 쓰는 `.md` 를 한 곳에 모은 레포.
 

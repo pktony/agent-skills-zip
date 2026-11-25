@@ -40,6 +40,15 @@ description: <무엇을 하는지 + 언제 발동하는지. 여기만 보고 로
 | 전역 | `~/.claude/skills/` | `~/.agents/skills/` |
 | 프로젝트 | `.claude/skills/` | `.agents/skills/` |
 
+## 규칙 추가
+
+`rules/<주제>.md` 를 만든다. Claude Code 가 부르지 않아도 읽는 지침이다.
+
+- 파일 하나 = 주제 하나. 특정 파일에만 필요하면 frontmatter `paths` 를 단다. YAML 이 깨지면 `paths` 가 무시되고 항상 읽힌다
+- 항상 읽히는 규칙은 모든 세션의 컨텍스트를 차지한다. 짧게, 특정 프로젝트의 이름 · 경로 없이 쓴다
+- em dash 를 쓰지 않는다
+- 고친 뒤 다른 에이전트용 사본은 `scripts/export-rules.sh` 를 다시 돌려 맞춘다
+
 ## docs/
 
 스킬은 아니지만 반복해서 붙여넣게 되는 `.md` 를 둔다.
